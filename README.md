@@ -1,4 +1,4 @@
-# Sample Plugin
+# Apple Framework Decorator (AFD)
 Author: **Daniil Nababkin (@cr7pt0pl4gu3)**
 
 _Apple Framework Decorator (AFD) is a BN plugin to decorate Apple Private Frameworks with runtime information from LLDB._
