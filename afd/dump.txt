@@ -1,0 +1,30 @@
+Admin`+[User findUserByName:searchParent:]:
+0x7ffb1b97f128 <+0>:  push   rbp
+0x7ffb1b97f129 <+1>:  mov    rbp, rsp
+0x7ffb1b97f12c <+4>:  push   r15
+0x7ffb1b97f12e <+6>:  push   r14
+0x7ffb1b97f130 <+8>:  push   r12
+0x7ffb1b97f132 <+10>: push   rbx
+0x7ffb1b97f133 <+11>: mov    r14d, ecx
+0x7ffb1b97f136 <+14>: mov    r15, rdx
+0x7ffb1b97f139 <+17>: mov    rbx, rdi
+0x7ffb1b97f13c <+20>: call   0x7ffb1b990f9c            ; symbol stub for: NSStringFromClass
+0x7ffb1b97f141 <+25>: mov    r12, rax
+0x7ffb1b97f144 <+28>: mov    rdi, rbx
+0x7ffb1b97f147 <+31>: call   0x7ffb1b990f9c            ; symbol stub for: NSStringFromClass
+0x7ffb1b97f14c <+36>: lea    rdi, [rip + 0x3ef7a95d]   ; @"### %@:%s is deprecated and will be REMOVED. Please switch to ADM%@ in SystemAdministration framework !"
+0x7ffb1b97f153 <+43>: lea    rdx, [rip + 0x13dd8]      ; "+[User findUserByName:searchParent:]"
+0x7ffb1b97f15a <+50>: mov    rsi, r12
+0x7ffb1b97f15d <+53>: mov    rcx, rax
+0x7ffb1b97f160 <+56>: xor    eax, eax
+0x7ffb1b97f162 <+58>: call   0x7ffb1b990f90            ; symbol stub for: NSLog
+0x7ffb1b97f167 <+63>: mov    rsi, qword ptr [rip + 0x4030e102] ; "_findUserName:searchParent:"
+0x7ffb1b97f16e <+70>: mov    rdi, rbx
+0x7ffb1b97f171 <+73>: mov    rdx, r15
+0x7ffb1b97f174 <+76>: mov    ecx, r14d
+0x7ffb1b97f177 <+79>: pop    rbx
+0x7ffb1b97f178 <+80>: pop    r12
+0x7ffb1b97f17a <+82>: pop    r14
+0x7ffb1b97f17c <+84>: pop    r15
+0x7ffb1b97f17e <+86>: pop    rbp
+0x7ffb1b97f17f <+87>: jmp    qword ptr [rip + 0x3ef7a69b] ; (void *)0x00007ff81a9b8700: objc_msgSend
